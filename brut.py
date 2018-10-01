@@ -37,7 +37,6 @@ def thread2(pin):
 # thread three gueses from (10**(len(pin)-1))/2 going foward
 # thread four gueses from (10**(len(pin)-1))/2 going backwards
 def crack():
-    number=raw_input("Enter the number of in your pin\n");
     pin=raw_input("Enter your pin\n")
     stime=time.time()
     #t0=thrading.Thread(target=timer,name='timer',args=(stime,))
