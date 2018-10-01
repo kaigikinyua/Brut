@@ -1,3 +1,4 @@
+#git master/upstream
 #inteligent guessing
 from generate import *
 class Inteli():
